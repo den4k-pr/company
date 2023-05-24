@@ -1,0 +1,42 @@
+{
+"main-header-title": "Peripheral digital services to enhance your productivity",
+"main-header-subTitle": "InfoPulse offers 30 years of IT experience, creating, integrating, and supporting modern digital solutions for your business.",
+"main-header-button": "TELL US ABOUT YOUR PROJECT",
+"main-cart_1-title": "Custom software development and design",
+"main-cart_1-subTitle": "Atomic creates software that is stable, scalable, and secure. It is user-centric and easy to use. Expertly designed for your business goals.",
+"main-cart-box-text": "We develop custom web applications that help your business function everywhere.",
+
+"main-cart2-title": "Web program capabilities",
+"main-cart2-li_1": "Responsive in all browsers, tablets, and smartphones",
+"main-cart2-li_2": "Modern cloud platforms, containerization, and deployment automation; can work offline and periodically synchronize data",
+"main-cart2-li_3": "Polished, user-friendly, accessible UI",
+"main-cart2-li_4": "Complex workflows, interactions, and visualizations",
+"main-cart2-li_5": "Scalable multi-tenant systems",
+
+"main-cart3-title": "Our approach",
+"main-cart3-subTitle": "Agile. Collaborative. Transparent. Time-tested.",
+"main-cart3-text": "Custom software means much more than custom code. It means hundreds of decisions — strategic, technical, design, and more. That's why we've become experts in product development, helping you make the right choice for your users and profit.",
+
+"main-cart3-box": [
+    {
+        "main-cart3-box-title": "STRATEGY",
+        "main-cart3-box-text": "Helping answer the question: What exactly should I build?"
+    },
+    {
+        "main-cart3-box-title": "DESIGN",
+        "main-cart3-box-text": "Creating beautiful, easy-to-use interfaces that engage users and make your company stand out."
+    },
+    {
+        "main-cart3-box-title": "DEVELOPMENT",
+        "main-cart3-box-text": "Writing quality code that smoothly and safely operates across multiple platforms."
+    },
+    {
+        "main-cart3-box-title": "DEPLOYMENT",
+        "main-cart3-box-text": "Get your product in the hands of people - with minimal hassle."
+    },
+    {
+        "main-cart3-box-title": "MAINTENANCE AND SUPPORT",
+        "main-cart3-box-text": "Keep your product in its best condition with ongoing support contracts, so we can quickly respond to your needs."
+    }
+]
+}

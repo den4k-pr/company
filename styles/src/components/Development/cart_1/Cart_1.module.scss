@@ -1,0 +1,97 @@
+
+
+$bg-color: #C0B7E8;
+
+.cart_1{
+    color: #fff;
+    padding: 150px 50px 150px 50px;
+
+    &__main{
+        display: flex;
+        align-items: center;
+
+        padding-top: 50px;
+        gap: 50px;
+
+        &_left{
+            flex: 50%;
+
+            background-image: url(/Development_cart1_web.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border: 3px solid #fff;
+
+            animation: spin2 2s linear infinite;
+            border-radius: 10px;
+            width: 100%;
+            height: 500px;
+        }
+
+        &_right{
+            flex: 50%;
+
+            &_title{
+                font-size: 22px;
+                font-weight: 700;
+                opacity: .5;
+                padding-bottom: 30px;
+                line-height: 30px;
+            }
+            &_text{
+                font-size: 16px;
+                line-height: 22px;
+                padding-bottom: 70px;
+            }
+            &_button{
+                background-color: transparent;
+                padding: 15px;
+                font-size: 16px;
+                color: #fff;
+                border: 2px solid #fff;
+                border-radius: 10px;
+                margin-bottom: 100px;
+                transition: .3s;
+                animation: spin 2s linear infinite;
+            }
+            &_button:hover{
+                background-color: $bg-color;
+                border: 2px solid $bg-color;
+                animation: none;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1000px) {
+    .cart_1{
+        padding: 150px 15px 150px 15px;
+    }
+    .cart_1__main{
+        flex-direction: column;
+
+        &_left{
+            padding: 200px 0;
+        }
+    }
+    .cart_1__main_right_button{
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+@media(max-width: 480px) {
+    .cart_1{
+        padding: 150px 15px 70px 15px;
+    }
+    .cart_1__main{
+        gap: 20px;
+    }
+    .cart_1__main_right_button{
+        max-width: 300px;
+        line-height: 20px;
+
+        text-align: center;
+        display: block;
+    }
+}

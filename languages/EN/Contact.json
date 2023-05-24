@@ -1,0 +1,19 @@
+{
+    "contact-title": "Contact (Company Name)",
+    "contact-subTitlle": "We would like to talk to you about your next project. Write to us and we will get in touch with you within two business days.",
+
+    "contact-form-label_1": "First Name",
+    "contact-form-label_2": "Last Name",
+    "contact-form-label_3": "Email",
+    "contact-form-label_4": "Phone Number",
+    "contact-form-label_5": "Company Name",
+    "contact-form-label_6": "What would you like to tell us? (max. 400 characters)",
+    
+    "contact-form-button": "SEND",
+    
+    "info-title": "CONTACT US",
+    "info-tel": "CALL US: +1 00 000 00",
+    "info-email": "WRITE TO US",
+    "info-title2": "SOCIAL MEDIA"
+    
+}

@@ -1,0 +1,51 @@
+{
+
+    "webDev-cart_1-title": "Web Application Design and Development",
+    "webDev-cart_1-subTitle": "Creating complex systems that are optimized and scalable.",
+    "webDev-cart_1-box-title": "We develop custom web applications that take your business wherever it needs to go.",
+    "webDev-cart_1-box-subTitle": "Whether you're optimizing an internal system or developing a consumer-facing program, an adaptive web application offers the freedom you and your users need. With basic internet connectivity, users can access your information from anywhere. At (Company Name), we create web applications that make complex systems simple. Our applications are durable and easy to maintain. Our goal is to maximize return on investment. And we deliver on time and within budget thanks to our smart budget planning and reliable process.",
+    "webDev-cart_1-box-button": "CALL US ABOUT YOUR PROJECT",
+    "webDev-cart_2-title": "Areas of Expertise",
+    "webDev-cart_2-subTitle": "We not only create great web applications, but we also aim to help you and your company succeed. We will create a product that solves your problems, fits your budget, and helps you do what you do even better.",
+    "webDev-cart_2-box": [
+        {
+            "webDev-cart_2-box-img": "/web/cloud.svg",
+            "webDev-cart_2-box-title": "CLOUD BACKEND DEVELOPMENT",
+            "webDev-cart_2-box-text": "Many programs require other software to store and manage data. Atomic can create a web application for content and account management, setting up cloud hosting and storage on providers like Azure, AWS, or Google, and integrating with existing corporate data systems. We will create a web application ecosystem that protects your information and provides your users with convenient and reliable work every time."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/microcircuit.svg",
+            "webDev-cart_2-box-title": "DEVICE/IOT INTEGRATION",
+            "webDev-cart_2-box-text": "From smart devices to commercial security systems, IoT devices provide uninterrupted system operation. Cloud web applications can be used to configure these physical devices and monitor their data. Atomic can help you develop a strategy, create and prepare to support a connected product that will take your services to the next level. We have experience in developing embedded software, Bluetooth Low Energy, MQTT, Zigbee, and various IoT software platforms."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/computer.svg",
+            "webDev-cart_2-box-title": "ADAPTIVE WEB APPLICATION DEVELOPMENT",
+            "webDev-cart_2-box-text": "Web applications are incredibly flexible. With just one codebase, you can offer your product to internet, mobile, and tablet users. An adaptive web application is a great solution for outdated software, as an outdated desktop application can be smoothly transitioned to a modern cloud web application. Atomic has created 84+ complex adaptive web applications for tablets and mobile devices using tools such as React, Angular, Vue.js, and more."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/design.svg",
+            "webDev-cart_2-box-title": "WEB APPLICATION DESIGN",
+            "webDev-cart_2-box-text": "At Atomic, program design is as important as development. User-centered design highlights user desires and encourages the implementation of web applications. Such an approach to design ensures the beauty and user-friendliness of the web application."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/security.svg",
+            "webDev-cart_2-box-title": "WEB APPLICATION SECURITY",
+            "webDev-cart_2-box-text": "Data protection is crucial for the success and security of your application. Atomic takes client security seriously and uses a range of best practices published by organizations such as NIST and OWASP to ensure that all our web applications are secure. For applications with a high risk of breach, we work with clients to help them understand what level of investment in privacy and security makes sense for their project."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/testing.svg",
+            "webDev-cart_2-box-title": "WEB APPLICATION TESTING",
+            "webDev-cart_2-box-text": "Without testing, software can be vulnerable to errors and hackers, leading to user dissatisfaction. At Atomic, our web application developers write automated tests for devices and systems to ensure that your application is functioning correctly. In addition, our teams of developers perform functional testing to manually verify that their work is performing correctly."
+        }            
+    ],
+
+    "webDev-cart_3-title": "Share your next great web application idea below!",
+    "webDev-cart_3-label-1": "First Name",
+    "webDev-cart_3-label-2": "Last Name",
+    "webDev-cart_3-label-3": "Email",
+    "webDev-cart_3-label-4": "Phone Number",
+    "webDev-cart_3-label-5": "Company Name",
+    "webDev-cart_3-label-6": "What do you want to tell us? (max. 400 characters)",
+    "webDev-cart_3-button": "SEND"
+}

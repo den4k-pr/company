@@ -1,0 +1,102 @@
+
+
+.linkBox{
+    display: block;
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 360px;
+
+        gap: 40px;
+        
+        &_left{
+            color: #fff;
+            position: relative;
+
+            max-width: 500px;
+
+            p{
+                font-size: 16px;
+                line-height: 22px;
+                padding-bottom: 20px;
+            }
+            h2{
+                font-size: 22px;
+                line-height: 30px;
+                font-weight: 700;
+                padding-bottom: 30px;
+            }
+            &_button{
+                padding: 15px 20px;
+                border-radius: 10px;
+                font-size: 16px;
+                transition-duration: .3s;
+                font-weight: 700;
+
+                text-transform: uppercase;
+                color: #211E2E;
+                position: absolute;
+                top: 157px;
+                background-color: #fff;
+                box-shadow: 0px 3px 0px 2px #8176AF;
+                background-color: #fff;
+            }
+            &_button:hover{
+                top: 150px;
+                box-shadow: 0px 1px 0px 2px #aca3ce;
+                background-color: #ebe6ff;
+            }
+        }
+        &_right{
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+        }
+    }
+}
+
+@media(max-width: 1030px) {
+    .linkBox__content{
+        flex-direction: column;
+
+        height: 750px;
+        padding-top: 60px;
+        margin-top: 30px;
+
+        &_left{
+            order: 2;
+            padding: 0 0 60px 0;
+            text-align: center;
+
+            p{
+                padding-bottom: 30px;
+            }
+            &_button{
+                position: static;
+            }
+        }
+        &_right{
+            order: 1;
+        }
+    }
+}
+@media(max-width: 600px) {
+    .linkBox__content{
+        height: 700px;
+    }
+    .linkBox__content_right{
+        background-size: 400px;
+    }
+}
+@media(max-width: 450px) {
+    .linkBox__content{
+        height: 700px;
+    }
+    .linkBox__content_right{
+        background-size: 300px;
+    }
+}

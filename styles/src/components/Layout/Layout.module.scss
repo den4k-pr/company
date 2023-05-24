@@ -1,0 +1,412 @@
+
+// -- Header -- //
+
+$bg-color: #C0B7E8;
+
+.header{
+
+    &__chooseLang{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__content{
+            background-color: #181921e6;
+            
+            max-width: 500px;
+            border-radius: 5px;
+            margin: 0 10px;
+            width: 100%;
+            display: block;
+            padding: 30px;
+            height: 500px;
+            
+            &_title{
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+
+            &_box{
+                padding-top: 30px;
+                display: flex;
+                flex-direction: column;
+
+                &_link{
+                    font-size: 16px;
+                    line-height: 60px;
+                    width: 180px;
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__content{
+        z-index: 3;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        
+        transition: .3s;
+        padding: 0 100px;
+        margin: 0 auto;
+
+        &_lang{
+            text-align: center;
+            cursor: pointer;
+            transition: .2s;
+            border-top: 2px solid #272727;
+            padding: 12px 15px;
+
+            &_img{
+                height: 18px;
+                overflow: hidden;
+            }
+            &_name{
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: 700;
+                padding-top: 5px;
+                line-height: 22px;
+            }
+        }
+        &_lang:hover{
+            background-color: #6e6e6e6b;
+        }
+
+
+        &_burger{
+            display: none;
+        }
+        &_box{
+            flex: 25%;
+            display: flex;
+            gap: 20px;
+
+            &_ButtonNew{
+                display: none;
+            }
+
+            &_Button{
+                background-color: transparent;
+                color: #fff;
+
+                border: 2px solid #fff;
+                border-radius: 5px;
+                font-size: 16px;
+                padding: 10px 15px;
+                transition: .3s;
+                margin-left: 25px;
+            }
+            &_Button:hover{
+                border: 2px solid transparent;
+                background-color: $bg-color;
+            }
+        }
+
+        &_logo{
+            flex: 8%;
+            height: 40px;
+
+            svg{
+                margin-top: -15px;
+            }
+        }
+        &_list{
+            flex: 67%;
+            display: flex;
+            column-gap: 50px;
+
+            li{
+                cursor: pointer;
+            }
+            &_link{
+                font-size: 15px;
+                line-height: 30px;
+            }
+            &_link::after{
+                content: '';
+                display: block;
+                width: 0%;
+                height: 4px;
+                transition-duration: .5s;
+                background-color: #fff;
+            }
+            li:hover &_link::after{
+                content: '';
+                display: block;
+                width: 100%;
+                height: 4px;
+                background: $bg-color;
+            }
+
+        }
+    }
+}
+
+@media(max-width: 1500px){
+    .header{
+
+        &__content{
+            padding: 0 15px;
+
+            &_list{
+                gap: 20px;
+            }
+        }
+    }
+}
+@media(max-width: 1000px){
+    .header__content_box_ButtonNew{
+        display: block;
+        width: 250px;
+        padding: 20px;
+        margin: 0 auto;
+        background-color: transparent;
+        color: #fff;
+
+        border: 2px solid #fff;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: .3s;
+    }
+    .header__content_box_ButtonNew:hover{
+        border: 2px solid transparent;
+        background-color: $bg-color;
+    }
+    .header{
+
+        &__content{
+
+            &_burger.header__content_burgerActive .header__content_burger_line:nth-child(1){
+                transform: rotate(-50deg);
+                margin-bottom: -15px;
+            }
+            &_burger.header__content_burgerActive .header__content_burger_line:nth-child(2){
+                opacity: 0;
+            }
+            &_burger.header__content_burgerActive .header__content_burger_line:nth-child(3){
+                transform: rotate(50deg);
+            }
+            &_burger{
+                z-index: 5;
+                width: 70px;
+                height: 44px;
+                margin-left: 40px;
+                transition: .3s;
+                border-radius: 10px;
+                border: 3px solid #ffffff;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                &_line{
+                    width: 40px;
+                    height: 3px;
+                    transition: .3s;
+
+                    background-color: #ffffff;
+                    display: block;
+                }
+                &_line:nth-child(2){
+                    margin: 5px 0;
+                }
+            }
+            &_burger:hover{
+                border: 3px solid $bg-color;
+            }
+            &_burger:hover .header__content_burger_line{
+                background-color: $bg-color;
+            }
+            &_list{
+                z-index: 5;
+                gap: 30px;
+                flex-direction: column;
+                text-align: center;
+                position: fixed;
+                top: 0;
+                background-color: #272727;
+                width: 100%;
+                height: 100%;
+                padding-top: 150px;
+                transition: .3s;
+                transform: translateX(100%);
+
+                &_Link{
+                    line-height: 60px;
+                    font-size: 16px;
+                }
+            }
+            &_list.header__content_listActive{
+                transform: translateX(0%)
+            }
+        }
+    }
+}
+@media(max-width: 600px){
+    .header__content_box_Button,
+    .header__content_box_ButtonNew{
+        padding: 10px;
+    }
+    .header__content_burger{
+        height: 37px;
+        width: 60px;
+
+        &_line{
+            width: 30px;
+            height: 3px;
+            transition: .3s;
+
+            background-color: #ffffff;
+            display: block;
+        }
+        &_line:nth-child(2){
+            margin: 4.5px 0;
+        }
+    }
+}
+@media(max-width: 500px){
+    .header__content_burger{
+        margin-left: 20px;
+    }
+    .header__content_box_Button{
+        display: none;
+    }
+}
+
+// -- Footer -- //
+
+.footer{
+    padding: 50px 0;
+    background-color: #0f121c;
+
+    &__content::after{
+        content: '(с) World of Warcraft, WoW, Overwatch, Hearthstone,Heroes of the Storm, Diablo 3 and Blizzard Entertainment are registered trademarks of Blizzard Entertainment Inc DESTINY 2 is registrerd tragemark of BUNGIE INC.';
+        position: absolute;
+        bottom: 0;
+        line-height: 30px;
+        text-align: center;
+        color: #b8b8b8;
+    }
+    &__content{
+        max-width: 1300px;
+        padding: 0 15px 100px 15px;
+
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+
+        &_box{
+            display: flex;
+            flex-direction: column;
+
+            &_button{
+                background-color: transparent;
+                color: #fff;
+
+                border: 2px solid #fff;
+                border-radius: 5px;
+                font-size: 16px;
+                padding: 15px 18px;
+                transition: .3s;
+            }
+            &_button:hover{
+                border: 2px solid transparent;
+                background-color: $bg-color;
+            }
+            svg{
+                margin: 0 auto;
+            }
+
+            svg path{
+                animation: spin 5s linear infinite;
+            }
+
+            @keyframes spin {
+                0% {fill: #fff}
+                50% {fill: $bg-color}
+                100% {fill: #fff}
+            }
+        }
+        &_list{
+            display: flex;
+            flex-direction: column;
+
+            &_link{
+                font-size: 16px;
+                line-height: 30px;
+                transition: .1s;
+            }
+            &_link:hover{
+                color: #adadad;
+            }
+        }
+        &_listIcons{
+            display: flex;
+            flex-wrap: wrap;
+            width: 65px;
+            gap: 5px;
+            &_LinkIcon{
+                width: 30px;
+                height: 30px;
+            }
+            &_LinkIcon svg{
+                width: 30px;
+                height: 30px;
+            }
+            &_LinkIcon svg path{
+                transition: .2s;
+            }
+            &_LinkIcon:hover svg path{
+                fill: $bg-color;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 800px){
+    .footer__content{
+        padding: 0 15px 150px 15px;
+    }
+}
+@media(max-width: 500px) {
+    .footer__content{
+        flex-direction: column;
+    }
+    .footer__content_list{
+        order: 2;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px;
+    }
+    .footer__content_box{
+        order: 1;
+    }
+    .footer__content_listIcons{
+        justify-content: center;
+        order: 3;
+        width: 300px;
+        padding: 20px 0 50px 0;
+        gap: 37px;
+    }
+}

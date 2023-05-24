@@ -1,0 +1,50 @@
+{
+    "webDev-cart_1-title": "Diseño y desarrollo de aplicaciones web",
+    "webDev-cart_1-subTitle": "Creación de sistemas complejos, optimizados y escalables.",
+    "webDev-cart_1-box-title": "Desarrollamos aplicaciones web personalizadas que permitirán a tu negocio estar en todas partes.",
+    "webDev-cart_1-box-subTitle": "Ya sea que estés optimizando un sistema interno o desarrollando una aplicación orientada al consumidor, una aplicación web receptiva ofrece la libertad que necesitas, tanto para ti como para tus usuarios. Gracias a la conexión básica a Internet, los usuarios tendrán acceso a tu información en cualquier lugar. En (nombre de la compañía) creamos programas web que hacen que los sistemas complejos sean simples. Nuestros programas son duraderos y fáciles de mantener. Nuestro objetivo es maximizar el rendimiento de la inversión. Y lo hacemos dentro del tiempo y presupuesto gracias a nuestra planificación inteligente del presupuesto y nuestro proceso confiable.",
+    "webDev-cart_1-box-button": "CUÉNTANOS SOBRE TU PROYECTO",
+    "webDev-cart_2-title": "Áreas de conocimiento",
+    "webDev-cart_2-subTitle": "No solo podemos crear una excelente aplicación web, sino que también buscamos ayudarte a ti y a tu empresa a alcanzar el éxito. Crearemos un producto que solucionará tus problemas, se adaptará a tu presupuesto y te ayudará a hacer lo que haces aún mejor.",
+    "webDev-cart_2-box": [
+        {
+            "webDev-cart_2-box-img": "/web/cloud.svg",
+            "webDev-cart_2-box-title": "DESARROLLO DE BACKEND EN LA NUBE",
+            "webDev-cart_2-box-text": "Muchos programas requieren otros softwares para la gestión y el almacenamiento de datos. Atomic puede crear una aplicación web para la gestión de contenido y cuentas, la configuración de hosting en la nube y el almacenamiento en proveedores como Azure, AWS o Google, e integrar con sistemas de datos empresariales existentes. Crearemos un ecosistema de aplicaciones web que protegerá tu información y asegurará un trabajo cómodo y fiable para tus usuarios cada vez."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/microcircuit.svg",
+            "webDev-cart_2-box-title": "INTEGRACIÓN DE DISPOSITIVOS/IOT",
+            "webDev-cart_2-box-text": "Desde dispositivos inteligentes hasta sistemas de seguridad comerciales, los dispositivos IoT aseguran el correcto funcionamiento del sistema. Las aplicaciones web en la nube pueden utilizarse para configurar estos dispositivos físicos y monitorear sus datos. Atomic puede ayudarte a desarrollar una estrategia, crear y preparar un producto conectado para el soporte que llevará tus servicios a un nuevo nivel. Tenemos experiencia en el desarrollo de software integrado, Bluetooth Low Energy, MQTT, Zigbee y varias plataformas software IoT."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/computer.svg",
+            "webDev-cart_2-box-title": "DESARROLLO ADAPTATIVO DE APLICACIONES WEB",
+            "webDev-cart_2-box-text": "Las aplicaciones web son increíblemente flexibles. Al tener una sola base de código, puedes ofrecer tu producto a usuarios de Internet, dispositivos móviles y tabletas. Una aplicación web adaptativa es una gran solución para el software obsoleto, ya que el antiguo software de escritorio puede convertirse fácilmente en una moderna aplicación web en la nube. Atomic ha creado más de 84 complejas aplicaciones web adaptativas para tabletas y dispositivos móviles utilizando herramientas como React, Angular, Vue.js y otras."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/design.svg",
+            "webDev-cart_2-box-title": "DISEÑO DE APLICACIONES WEB",
+            "webDev-cart_2-box-text": "En el proceso de desarrollo de Atomic, el diseño es tan importante como el desarrollo. El diseño centrado en el usuario identifica las necesidades del usuario y fomenta la implementación de aplicaciones web. Este enfoque de diseño garantiza la belleza y facilidad de uso de la aplicación web."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/security.svg",
+            "webDev-cart_2-box-title": "SEGURIDAD DE APLICACIONES WEB",
+            "webDev-cart_2-box-text": "La protección de los datos es crucial para el éxito y la seguridad de su software. En Atomic nos tomamos en serio la seguridad de nuestros clientes y utilizamos una serie de las mejores prácticas publicadas por organizaciones como NIST y OWASP para garantizar la seguridad de todas nuestras aplicaciones web. Para aplicaciones de alto riesgo de violación, trabajamos con los clientes para ayudarlos a entender qué nivel de inversión en privacidad y seguridad tiene sentido para su proyecto."
+        },
+        {
+            "webDev-cart_2-box-img": "/web/testing.svg",
+            "webDev-cart_2-box-title": "PRUEBAS DE APLICACIONES WEB",
+            "webDev-cart_2-box-text": "Sin probar el software, este podría ser vulnerable a errores y hackers, lo que causaría insatisfacción de los usuarios. En Atomic, nuestros desarrolladores de aplicaciones web escriben pruebas automáticas de dispositivos y sistemas para asegurarse de que la aplicación funcione correctamente. Además, nuestros grupos de desarrolladores ejecutan pruebas funcionales para verificar manualmente que su trabajo se ejecute correctamente."
+        }
+    ],
+
+    "webDev-cart_3-title": "¡Comparte tu fantástica idea para una aplicación web a continuación!",
+    "webDev-cart_3-label-1": "Nombre",
+    "webDev-cart_3-label-2": "Apellido",
+    "webDev-cart_3-label-3": "Correo electrónico",
+    "webDev-cart_3-label-4": "Número de teléfono",
+    "webDev-cart_3-label-5": "Nombre de la empresa",
+    "webDev-cart_3-label-6": "¿Qué nos quieres decir? (máximo 400 caracteres)",
+    "webDev-cart_3-button": "ENVIAR"
+}

@@ -1,0 +1,45 @@
+
+{
+    "main-header-title": "Services numériques périphériques pour améliorer votre productivité",
+    "main-header-subTitle": "InfoPulse propose 30 ans d'expérience dans les technologies de l'information, la création, l'intégration et le support de solutions numériques modernes pour votre entreprise.",
+    "main-header-button": "PARLEZ-NOUS DE VOTRE PROJET",
+
+
+    "main-cart_1-title": "Développement et conception de logiciels personnalisés",
+    "main-cart_1-subTitle": "Atomic crée des logiciels stables, évolutifs et sécurisés, orientés utilisateur et simples à utiliser. Expertement conçus pour répondre à vos objectifs commerciaux.",
+    "main-cart-box-text": "Nous développons des applications web personnalisées qui aident votre entreprise à fonctionner partout.",
+
+    "main-cart2-title": "Possibilités de l'application web",
+    "main-cart2-li_1": "Sensible à tous les navigateurs, tablettes et smartphones",
+    "main-cart2-li_2": "Plateformes cloud modernes, conteneurisation et automatisation du déploiement; peut fonctionner en mode déconnecté et synchroniser périodiquement les données",
+    "main-cart2-li_3": "Interface utilisateur raffinée, conviviale et accessible",
+    "main-cart2-li_4": "Processus de travail complexes, interactions et visualisations",
+    "main-cart2-li_5": "Systèmes multilocataires évolutifs",
+
+    "main-cart3-title": "Notre approche",
+    "main-cart3-subTitle": "Agile. Collaboratif. Transparent. Testé dans le temps.",
+    "main-cart3-text": "Un logiciel personnalisé signifie beaucoup plus qu'un code personnalisé. Cela signifie des centaines de décisions - stratégiques, techniques, de conception, etc. C'est pourquoi nous sommes devenus des experts en développement de produits, en vous aidant à faire les bons choix pour vos utilisateurs et votre rentabilité.",
+
+    "main-cart3-box": [
+        {
+            "main-cart3-box-title": "STRATÉGIE",
+            "main-cart3-box-text": "Aider à répondre à la question: Qu'est-ce que je devrais construire exactement?"
+        },
+        {
+            "main-cart3-box-title": "CONCEPTION",
+            "main-cart3-box-text": "Créer des interfaces belles et conviviales qui captivent les utilisateurs et rendent votre entreprise exceptionnelle."
+        },
+        {
+            "main-cart3-box-title": "DÉVELOPPEMENT",
+            "main-cart3-box-text": "Écrire un code de qualité qui fonctionne en douceur et en toute sécurité sur plusieurs plates-formes."
+        },
+        {
+            "main-cart3-box-title": "DÉPLOIEMENT",
+            "main-cart3-box-text": "Faites connaître votre produit aux gens - avec un minimum de tracas."
+        },
+        {
+            "main-cart3-box-title": "SUPPORT TECHNIQUE",
+            "main-cart3-box-text": "Gardez votre produit en parfait état grâce à des contrats de maintenance pour que nous puissions répondre rapidement à vos besoins."
+        }
+    ]
+}

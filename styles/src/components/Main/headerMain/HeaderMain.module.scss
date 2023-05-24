@@ -1,0 +1,110 @@
+
+.topMain_fon::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #2727276e;
+    -webkit-box-shadow: inset 0px -300px 100px -13px #1c1a27;
+    -moz-box-shadow: inset 0px -300px 100px -13px #1c1a27;
+    box-shadow: inset 0px -300px 100px -13px #1c1a27;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+
+    z-index: 1;
+}
+
+.topMain_fon{
+    background-image: url(/headerFon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    height: 1000px;
+}
+.topMain{
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    z-index: 2;
+
+    &_title{
+        font-size: 57px;
+        line-height: 70px;
+        letter-spacing: 2px;
+        max-width: 800px;
+        color: #fff;
+
+        transition: 0.3s;
+    }
+
+    &_text{
+        padding: 30px 0 60px 0; 
+        font-size: 16px;
+        letter-spacing: 1px;
+        max-width: 400px;
+        line-height: 20px;
+        color: rgb(231, 231, 231);
+
+        transition: 0.5s;
+    }
+    &_button{
+        background-color: transparent;
+        text-transform: uppercase;
+    
+        background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+        color: #fff;
+        border-radius: 15px;
+        font-size: 16px;
+        padding: 15px 23px;
+        letter-spacing: 2px;
+        transition: 0.3s;
+    }
+    
+    &_button:hover{
+        color: #fff;
+        box-shadow: inset 0px 0px 100px 10px rgba(0, 4, 44, 0.76);
+    }
+    
+}
+
+
+@media(max-width: 1030px){
+    .topMain_title{
+        font-size: 47px;
+        line-height: 60px;
+    }
+}
+@media(max-width: 800px){
+    .topMain{
+        padding-top: 300px;
+    }
+    .topMain_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .topMain_button{
+        font-size: 14px;
+    }
+    .topMain_fon::after,
+    .topMain_fon{
+        height: 1200px;
+    }
+}
+@media(max-width: 480px) {
+    .topMain_title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .topMain_button{
+        max-width: 300px;
+        line-height: 22px;
+
+        text-align: center;
+        display: block;
+    }
+}

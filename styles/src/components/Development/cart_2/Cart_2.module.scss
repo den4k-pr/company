@@ -1,0 +1,45 @@
+
+
+$bg-color: #C0B7E8;
+
+.cart_2{
+    color: #fff;
+
+    &__columns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 50px;
+    }
+    &__column{
+        max-width: 400px;
+        transition: .7s;
+
+        text-align: center;
+
+        &_title{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 30px;
+            padding-bottom: 20px;
+
+            color: $bg-color;
+            text-transform: uppercase;
+        }
+
+        &_text{
+            line-height: 24px;
+            font-size: 16px;
+        }
+
+        &_image{
+            background-color: $bg-color;
+            border-radius: 100%;
+            width: 80px;
+            height: 80px;
+            padding: 15px 5px 5px 5px;
+            margin-bottom: 30px;
+        }
+    }
+}

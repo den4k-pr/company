@@ -1,0 +1,45 @@
+{
+    "welcome-cart_1-title": "Carriera",
+    "welcome-cart_1-subTitle": "Lavora con persone intelligenti e appassionate. Fai cose fantastiche. Impara ogni giorno.",
+    "welcome-cart_1-button": "Contattaci",
+    "welcome-cart_1-content-title": "Stai pensando di unirti a noi?",
+    "welcome-cart_1-content-subTitle": "Siamo specialisti e consulenti a vasto spettro, appassionati dello sviluppo di software e desiderosi di aiutare i nostri clienti a raggiungere il successo. Valorizziamo la formazione, la collaborazione, la responsabilità personale e il sostegno reciproco.",
+
+
+    "welcome-cart_2-title": "Vantaggi",
+    "welcome-cart_2-subTitle": "(Nome della compagnia) è di proprietà dei dipendenti e ci prendiamo cura gli uni degli altri.",
+    
+    "welcome-cart_2-left-title": "FONDAMENTALI",
+    "welcome-cart_2-left-subTitle": "Svolgere un grande lavoro richiede molta energia e concentrazione, quindi ci assicuriamo che le tue esigenze di base siano soddisfatte.",
+    
+    "welcome-cart_2-box_1": [
+        {
+            "welcome-cart_2-box_1-text": "Ritmo di lavoro stabile"
+        }
+    ],
+    
+    "welcome-cart_2-right-title": "MAESTRIA, AUTONOMIA, ORIENTAMENTO AGLI OBIETTIVI",
+    "welcome-cart_2-right-subTitle": "I dipendenti trascorrono ogni giorno risolvendo problemi entusiasmanti e complessi, con:",
+    
+    "welcome-cart_2-box_2": [
+        {
+            "welcome-cart_2-box_2-text": "Progetti interessanti realizzati con una varietà di strumenti."
+        },
+        {
+            "welcome-cart_2-box_2-text": "Team auto-organizzati, composti da creatori intelligenti, riflessivi e laboriosi."
+        },
+        {
+            "welcome-cart_2-box_2-text": "Una cultura che valorizza la maestria e la collaborazione."
+        }
+    ],
+    
+    "welcome-cart_3-title": "Come contattarci?",
+    "welcome-cart_3-subTitle": "Inserisci tutti i dati necessari nel modulo e carica il tuo curriculum, ti contatteremo entro due giorni lavorativi.",
+    
+    "welcome-cart_3-form-label_1": "Curriculum",
+    
+    "welcome-cart_3-form-label_2": "Cosa vuoi dirci? (max 400 caratteri)",
+    
+    "welcome-cart_3-form-button": "INVIA"
+    
+}

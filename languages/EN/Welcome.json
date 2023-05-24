@@ -1,0 +1,45 @@
+{
+    "welcome-cart_1-title": "Career",
+    "welcome-cart_1-subTitle": "Work with smart, passionate people. Do cool stuff. Learn every day.",
+    "welcome-cart_1-button": "Contact us",
+    "welcome-cart_1-content-title": "Thinking about joining?",
+    "welcome-cart_1-content-subTitle": "We are a multi-disciplinary team of specialists and consultants who are passionate about software development and helping our clients succeed. We value learning, collaboration, personal responsibility, and mutual support.",
+
+
+    "welcome-cart_2-title": "Benefits",
+    "welcome-cart_2-subTitle": "(Company name) is employee-owned, and we take care of each other.",
+    
+    "welcome-cart_2-left-title": "BASICS",
+    "welcome-cart_2-left-subTitle": "Doing great work requires a lot of energy and focus, so we take care of your basic needs.",
+    
+    "welcome-cart_2-box_1": [
+        {
+            "welcome-cart_2-box_1-text": "Stable pace of work"
+        }
+    ],
+    
+    "welcome-cart_2-right-title": "EXPERTISE, AUTONOMY, PURPOSE",
+    "welcome-cart_2-right-subTitle": "Employees spend each day tackling challenging and exciting problems, with:",
+    
+    "welcome-cart_2-box_2": [
+        {
+            "welcome-cart_2-box_2-text": "Interesting projects created using a variety of tools."
+        },
+        {
+            "welcome-cart_2-box_2-text": "Self-managed teams of smart, thoughtful, hardworking creators."
+        },
+        {
+            "welcome-cart_2-box_2-text": "A culture that values expertise and collaboration."
+        }
+    ],
+    
+    "welcome-cart_3-title": "How to get in touch with us?",
+    "welcome-cart_3-subTitle": "Please provide all the necessary information in the form and upload your resume, we will get back to you within two business days.",
+    
+    "welcome-cart_3-form-label_1": "Resume",
+    
+    "welcome-cart_3-form-label_2": "What do you want to tell us? (max. 400 characters)",
+    
+    "welcome-cart_3-form-button": "SEND"
+    
+}

@@ -1,0 +1,45 @@
+{
+    "welcome-cart_1-title": "Carrière",
+    "welcome-cart_1-subTitle": "Travaillez avec des personnes intelligentes et passionnées. Faites des choses incroyables. Apprenez tous les jours.",
+    "welcome-cart_1-button": "Contactez-nous",
+    "welcome-cart_1-content-title": "Vous pensez à nous rejoindre?",
+    "welcome-cart_1-content-subTitle": "Nous sommes des spécialistes et des consultants polyvalents passionnés par le développement de logiciels et souhaitant aider nos clients à réussir. Nous valorisons l'apprentissage, la collaboration, la responsabilité personnelle et le soutien mutuel.",
+
+
+    "welcome-cart_2-title": "Avantages",
+    "welcome-cart_2-subTitle": "(Nom de l'entreprise) appartient aux employés, et nous prenons soin les uns des autres.",
+    
+    "welcome-cart_2-left-title": "Fondamentaux",
+    "welcome-cart_2-left-subTitle": "Faire un travail important demande beaucoup d'énergie et de concentration, c'est pourquoi nous veillerons à ce que vos besoins fondamentaux soient satisfaits.",
+    
+    "welcome-cart_2-box_1": [
+        {
+            "welcome-cart_2-box_1-text": "Rythme de travail stable"
+        }
+    ],
+    
+    "welcome-cart_2-right-title": "Compétence, autonomie, engagement",
+    "welcome-cart_2-right-subTitle": "Les employés passent chaque jour à résoudre des problèmes passionnants et complexes, avec:",
+    
+    "welcome-cart_2-box_2": [
+        {
+            "welcome-cart_2-box_2-text": "Projets intéressants, créés avec une variété d'outils."
+        },
+        {
+            "welcome-cart_2-box_2-text": "Des équipes autonomes composées de créateurs intelligents, réfléchis et travailleurs."
+        },
+        {
+            "welcome-cart_2-box_2-text": "Une culture qui valorise l'expertise et la collaboration."
+        }
+    ],
+    
+    "welcome-cart_3-title": "Comment nous contacter?",
+    "welcome-cart_3-subTitle": "Veuillez fournir toutes les informations requises dans le formulaire et télécharger votre CV, nous vous contacterons dans les deux jours ouvrables.",
+    
+    "welcome-cart_3-form-label_1": "CV",
+    
+    "welcome-cart_3-form-label_2": "Que voulez-vous nous dire? (max. 400 caractères)",
+    
+    "welcome-cart_3-form-button": "ENVOYER"
+    
+}

@@ -1,0 +1,45 @@
+
+{
+    "main-header-title": "Servicios digitales periféricos para aumentar tu productividad",
+    "main-header-subTitle": "InfoPulse ofrece 30 años de experiencia en TI, creación, integración y soporte de soluciones digitales modernas para tu negocio.",
+    "main-header-button": "CUÉNTANOS SOBRE TU PROYECTO",
+
+
+    "main-cart_1-title": "Desarrollo y diseño de software a medida",
+    "main-cart_1-subTitle": "Atomic crea software estable, escalable y seguro que está diseñado para el usuario y es fácil de usar. Está expertamente diseñado para satisfacer tus objetivos comerciales.",
+    "main-cart-box-text": "Desarrollamos aplicaciones web personalizadas que ayudan a tu negocio a funcionar en cualquier lugar.",
+    
+    "main-cart2-title": "Funcionalidades de la aplicación web",
+    "main-cart2-li_1": "Sensible en todos los navegadores, tabletas y smartphones",
+    "main-cart2-li_2": "Plataformas de nube modernas, contenerización y automatización de implementación; puede funcionar en modo sin conexión y sincronizar datos periódicamente",
+    "main-cart2-li_3": "Interfaz de usuario refinada, conveniente y accesible",
+    "main-cart2-li_4": "Procesos de trabajo complejos, interacciones y visualizaciones",
+    "main-cart2-li_5": "Sistemas multitenantes escalables",
+    
+    "main-cart3-title": "Nuestro enfoque",
+    "main-cart3-subTitle": "Agile. Colaborativo. Transparente. Probado en el tiempo.",
+    "main-cart3-text": "El software personalizado significa mucho más que código personalizado. Significa cientos de decisiones - estratégicas, técnicas, de diseño, etc. Es por eso que nos hemos convertido en expertos en el desarrollo de productos, ayudándote a tomar la decisión correcta para tus usuarios y tu rentabilidad.",
+    
+    "main-cart3-box": [
+        {
+            "main-cart3-box-title": "ESTRATEGIA",
+            "main-cart3-box-text": "Ayudando a responder a la pregunta: ¿Qué es exactamente lo que debo construir?"
+        },
+        {
+            "main-cart3-box-title": "DISEÑO",
+            "main-cart3-box-text": "Creando interfaces hermosas y fáciles de usar que atraen a los usuarios y hacen que tu empresa sea destacada."
+        },
+        {
+            "main-cart3-box-title": "DESARROLLO",
+            "main-cart3-box-text": "Escribiendo código de calidad que funciona sin problemas y de forma segura en varias plataformas."
+        },
+        {
+            "main-cart3-box-title": "IMPLEMENTACIÓN",
+            "main-cart3-box-text": "Llevando tu producto a las personas con el mínimo de problemas."
+        },
+        {
+            "main-cart3-box-title": "SOPORTE TÉCNICO",
+            "main-cart3-box-text": "Mantén tu producto en su mejor estado con contratos de soporte continuo para que podamos responder rápidamente a tus necesidades."
+        }
+    ]
+}

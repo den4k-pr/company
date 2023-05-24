@@ -1,0 +1,19 @@
+{
+    "contact-title": "Contactez (Nom de l'entreprise)",
+    "contact-subTitlle": "Nous aimerions discuter avec vous de votre prochain projet. Envoyez-nous un message et nous vous contacterons dans les deux jours ouvrables.",
+
+    "contact-form-label_1": "Prénom",
+    "contact-form-label_2": "Nom de famille",
+    "contact-form-label_3": "Adresse e-mail",
+    "contact-form-label_4": "Numéro de téléphone",
+    "contact-form-label_5": "Nom de l'entreprise",
+    "contact-form-label_6": "Que voulez-vous nous dire? (max. 400 caractères)",
+    
+    "contact-form-button": "ENVOYER",
+    
+    "info-title": "CONTACTEZ-NOUS",
+    "info-tel": "APPELEZ-NOUS: +33 00 0 00",
+    "info-email": "ÉCRIVEZ-NOUS",
+    "info-title2": "RÉSEAUX SOCIAUX"
+    
+}

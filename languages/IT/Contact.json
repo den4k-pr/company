@@ -1,0 +1,19 @@
+{
+    "contact-title": "Contattaci",
+    "contact-subTitlle": "Ci piacerebbe parlare con te del tuo prossimo progetto. Scrivici e ti contatteremo entro due giorni lavorativi.",
+
+    "contact-form-label_1": "Nome",
+    "contact-form-label_2": "Cognome",
+    "contact-form-label_3": "Email",
+    "contact-form-label_4": "Numero di telefono",
+    "contact-form-label_5": "Nome dell'azienda",
+    "contact-form-label_6": "Cosa vuoi dirci? (max 400 caratteri)",
+    
+    "contact-form-button": "INVIA",
+    
+    "info-title": "CONTATTACI",
+    "info-tel": "CONTATTACI AL: +39 00 0 00",
+    "info-email": "SCRIVICI",
+    "info-title2": "SOCIAL"
+    
+}

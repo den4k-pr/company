@@ -1,0 +1,100 @@
+
+$bg-color: #C0B7E8;
+
+.form{
+    padding: 150px 0;
+    color: #fff;
+    
+    &__info{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__form{
+        background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px;
+        
+        max-width: 700px;
+        padding: 70px 80px;
+
+        margin: 0 auto;
+
+        label{
+            padding: 15px 0;
+            transition: .2s;
+            color: #b9b9b9;
+        }
+
+        textarea,
+        input{
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            transition: .2s;
+        }
+        textarea{
+            resize: none;
+            height: 150px;
+            transition: .2s;
+        }
+        button{
+            background-color: #fff;
+            width: 200px;
+            padding: 15px;
+            font-size: 16px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            margin: 20px auto;
+            transition: .3s;
+        }
+        button:hover{
+            background-color: $bg-color;
+            color: #fff;
+            box-shadow: inset 0px 0px 100px 10px rgba(0, 4, 44, 0.76);
+        }
+        input:hover,
+        textarea:hover{
+            border: 2px solid #8e8e8e;
+        }
+    }
+}
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+
+    textarea:focus,
+    input:focus{
+        border: 2px solid $bg-color;
+    }
+
+}
+
+.form_box:focus-within textarea,
+.form_box:focus-within label {
+    color: $bg-color;
+  }
+
+@media(max-width: 850px) {
+    .form__form{
+        margin: 0 20px;
+        padding: 40px 60px;
+        border-radius: 50px;
+    }
+}
+@media(max-width: 500px) {
+    .form__form{
+        margin: 0 10px;
+        padding: 20px 30px;
+        border-radius: 50px;
+    }
+}
+@media(max-width: 400px) {
+    .form__form{
+        padding: 10px 20px;
+        border-radius: 30px;
+    }
+}
